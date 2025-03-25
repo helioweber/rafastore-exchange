@@ -1,36 +1,36 @@
 {
-  "name": "rafastore-exchange",
-  "bucket": "rafastore-exchange",
+  "name": "rafastore-exchange-20250325214340",
+  "bucket": "rafastore-exchange-20250325214340",
   "preset": "react",
   "env": "production",
-  "prefix": "20250325213517",
+  "prefix": "20250325214340",
   "not-first-run": true,
   "function": {
-    "id": 41767,
+    "id": 41768,
     "name": "__DEFAULT__",
     "file": ".edge/worker.js",
     "args": "azion/args.json",
-    "instance-id": 39480,
+    "instance-id": 39481,
     "instance-name": "__DEFAULT__",
     "cache-id": 0
   },
   "application": {
-    "id": 1742936432,
+    "id": 1742936433,
     "name": "__DEFAULT__"
   },
   "domain": {
-    "id": 1742935128,
-    "name": "rafastore-exchange",
-    "domain_name": "b0w1fugnv2.map.azionedge.net",
-    "url": "https://b0w1fugnv2.map.azionedge.net"
+    "id": 1742935129,
+    "name": "rafastore-exchange-20250325214340",
+    "domain_name": "gboq1plzx8.map.azionedge.net",
+    "url": "https://gboq1plzx8.map.azionedge.net"
   },
   "rt-purge": {
     "purge_on_publish": true
   },
   "origin": [
     {
-      "origin-id": 202648,
-      "origin-key": "54af30e0-5d61-4877-96c4-64889002b25f",
+      "origin-id": 202650,
+      "origin-key": "a6b2cfe5-d5aa-4a89-9043-4726caee1978",
       "name": "origin-storage-default"
     }
   ],
@@ -38,17 +38,17 @@
     "created": false,
     "rules": [
       {
-        "id": 385985,
+        "id": 385990,
         "name": "Set Storage Origin for All Requests",
         "phase": "request"
       },
       {
-        "id": 385986,
+        "id": 385991,
         "name": "Deliver Static Assets",
         "phase": "request"
       },
       {
-        "id": 385987,
+        "id": 385992,
         "name": "Redirect to index.html",
         "phase": "request"
       }
