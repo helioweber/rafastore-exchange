@@ -1,0 +1,58 @@
+{
+  "name": "rafastore-exchange",
+  "bucket": "rafastore-exchange",
+  "preset": "react",
+  "env": "production",
+  "prefix": "20250325213517",
+  "not-first-run": true,
+  "function": {
+    "id": 41767,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 39480,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1742936432,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1742935128,
+    "name": "rafastore-exchange",
+    "domain_name": "b0w1fugnv2.map.azionedge.net",
+    "url": "https://b0w1fugnv2.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 202648,
+      "origin-key": "54af30e0-5d61-4877-96c4-64889002b25f",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 385985,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 385986,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 385987,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
